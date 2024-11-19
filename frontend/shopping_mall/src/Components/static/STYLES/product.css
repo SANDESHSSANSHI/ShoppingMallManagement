@@ -1,0 +1,130 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+header {
+    background-color: rgb(red, green, blue); /* Blue background color for header */
+    color: #fff; /* White text color */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: auto; /* Full viewport height */
+}
+
+.header-content {
+    max-width: 80%; /* Limit the maximum width */
+    margin: 0 auto; /* Center horizontally */
+    background-color: #4CAF50; /* Change background color to green (you can adjust the color as needed) */
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+.header-content h1 {
+    font-size: 2rem;
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Add text shadow */
+    color: #fff; /* Change text color to white */
+}
+
+
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    .header-content h1 {
+        font-size: 2rem; /* Adjust font size for smaller screens */
+    }
+}
+
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa; /* Background color for the body */
+}
+
+.container_fashion {
+    padding: 20px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns */
+    grid-auto-rows: minmax(300px, auto); /* Automatic row height */
+    gap: 30px; /* Gap between products */
+    padding: 20px;
+}
+
+.product {
+    border: 1px solid #e1e4e8; /* Light border */
+    background-color: #fff; /* White background */
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+    transition: transform 0.3s ease; /* Add smooth transition */
+}
+
+.product:hover {
+    transform: translateY(-5px); /* Add lift effect on hover */
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px; /* Rounded corners for images */
+}
+
+.product h3 {
+    margin-top: 15px; /* Adjust spacing */
+    font-size: 1.2rem; /* Increase font size */
+    color: #333; /* Darken text color */
+}
+
+.product p {
+    margin-top: 10px; /* Adjust spacing */
+    font-size: 1.1rem; /* Increase font size */
+    color: #777; /* Lighten text color */
+}
+
+.rating {
+    margin-top: 15px; /* Adjust spacing */
+    font-size: 1.5rem; /* Increase font size */
+}
+.like-icon {
+    display: none; /* Initially hide the heart icon */
+    position: absolute; /* Position heart icon relative to product */
+    top: 10px; /* Adjust position */
+    right: 10px; /* Adjust position */
+    z-index: 1; /* Ensure heart icon appears above product image */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.product:hover .like-icon {
+    display: block; /* Display heart icon on hover */
+}
+.like-icon .fas {
+    color: #ccc; /* Default color for filled heart */
+}
+
+.like-icon .fas.liked {
+    color: red; /* Change color of filled heart to red */
+}
+
+.add-to-cart-btn {
+    background-color: #007bff; /* Blue color for button */
+    color: #fff; /* White text color */
+    border: none; /* Remove button border */
+    padding: 10px 20px; /* Add padding */
+    border-radius: 5px; /* Add border radius */
+    cursor: pointer; /* Change cursor to pointer */
+    transition: background-color 0.3s ease; /* Add smooth transition */
+}
+
+.add-to-cart-btn:hover {
+    background-color: #0056b3; /* Darker blue color on hover */
+}
