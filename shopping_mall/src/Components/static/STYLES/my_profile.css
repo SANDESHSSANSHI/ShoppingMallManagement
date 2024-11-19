@@ -1,0 +1,232 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+  }
+
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+  }
+  nav {
+  margin-top: 20px; /* Add margin-top for space */
+}
+  .nav-link {
+    text-decoration: none;
+    color: #333;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+
+  .nav-link:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+
+  main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .profile-info {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+  }
+
+  .profile-info h2 {
+    margin-bottom: 20px; /* Optional: Add margin-bottom to create space between h2 and other content */
+  }
+  
+  .info-item {
+    margin-bottom: 20px;
+  }
+
+  label {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+
+  .info-item span {
+    display: block;
+    margin-top: 5px;
+  }
+
+  @media screen and (max-width: 768px) {
+    nav ul li {
+      display: block;
+      margin: 10px 0;
+    }
+  }
+/** footer **/
+/* Footer Styles *//* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 0;
+}
+
+.logo_footer img {
+    width: 210px;
+}
+
+.information_f p {
+    margin: 5px 0;
+}
+
+.widget_menu {
+    margin-bottom: 30px;
+}
+
+.widget_menu h3 {
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.widget_menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.widget_menu ul li {
+    margin-bottom: 10px;
+}
+
+.widget_menu ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.form_sub {
+    margin-top: 20px;
+}
+
+.field {
+    position: relative;
+}
+
+.field input[type="email"] {
+    width: calc(100% - 110px);
+    padding: 10px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+}
+
+.field input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.field input[type="submit"]:hover {
+    background-color: #e65c00;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 992px) {
+    .widget_menu ul li {
+        margin-bottom: 8px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .widget_menu {
+        margin-bottom: 20px;
+    }
+
+    .field input[type="email"] {
+        width: 100%;
+        border-radius: 5px;
+    }
+
+    .field input[type="submit"] {
+        width: 100%;
+        border-radius: 5px;
+        margin-top: 10px;
+    }
+}
+.widget_menu ul{
+    display: flex;
+    flex-direction: column;
+    font-style: italic;
+}
+
+.row_footer{
+    display: flex;
+    justify-content: space-around;
+    font: weight 900px; ;
+}
+.container_footer h3{
+    font-size: 1.5rem;
+}
+
+
+
+
+
+
+
+
+/** cpy **/
+
+.cpy_ {
+    background: #222;
+    text-align: center;
+    padding: 20px 0;
+    margin-bottom: 0%;
+}
+
+.cpy_ p {
+    margin: 0;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.cpy_ p a {
+    margin: 0;
+    color: #f7444e;
+    font-size: 15px;
+    font-weight: 400;
+}

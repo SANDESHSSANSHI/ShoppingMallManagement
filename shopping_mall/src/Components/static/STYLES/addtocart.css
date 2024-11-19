@@ -1,0 +1,281 @@
+
+main {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 60px 0px;
+    background-color: #9f9a9a;
+}
+
+.checkout-container {
+    max-width: 1500px; /* Increase the max-width as needed */
+    margin: 20px auto;
+    margin-top: 0px;
+    padding: 80px 10px;
+
+    background-color: #e9e6e6;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+.order-summary {
+    display: grid;
+    grid-template-columns: auto; /* Adjust the minimum and maximum width as needed */
+    grid-gap: 20px;
+}
+
+.product {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    display: flex;
+}
+
+.product-image {
+    /* display: none; */
+    background-size: cover;
+    max-height: 150px;
+    /* overflow: hidden; */
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-details {
+    width: 50%;
+    padding: 15px;
+    /* width: 100%; */
+}
+
+.product h3 {
+    margin: 0;
+    color: #333;
+}
+
+.product p {
+    color: #666;
+}
+
+.price {
+    color: #007bff;
+    font-weight: bold;
+}
+
+.product-image img {    
+    width: auto;
+    height: 100%;
+}
+.r_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    height: auto;
+    /* border: 2px solid black; */
+}
+.removeproduct {
+    /* position: absolute;
+    top: 5px;
+    right: 5px; */
+    height: 30px;
+    padding: 5px 10px;
+    background-color: #ff5c5c;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.removeproduct:hover {
+    background-color: #d94444;
+}
+
+.total {
+    margin: 20px auto; /* Center the total amount */
+    text-align: center; /* Center align text */
+}
+
+.total h3 {
+    margin: 0;
+    color: #333;
+}
+
+.total_amount {
+    font-size: large;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.checkout-btn-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.checkout-btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.checkout-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .order-summary {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+}
+
+/** footer **/
+/* Footer Styles *//* Footer Styles */
+.container_footer{
+    height: 25%;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 30px 0;
+}
+
+.logo_footer img {
+    width: 210px;
+}
+
+.information_f p {
+    margin: 5px 0;
+}
+
+.widget_menu {
+    margin-bottom: 30px;
+}
+
+.widget_menu h3 {
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.widget_menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.widget_menu ul li {
+    margin-bottom: 10px;
+}
+
+.widget_menu ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.form_sub {
+    margin-top: 20px;
+}
+
+.field {
+    position: relative;
+}
+
+.field input[type="email"] {
+    width: calc(100% - 110px);
+    padding: 10px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+}
+
+.field input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.field input[type="submit"]:hover {
+    background-color: #e65c00;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 992px) {
+    .widget_menu ul li {
+        margin-bottom: 8px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .widget_menu {
+        margin-bottom: 20px;
+    }
+
+    .field input[type="email"] {
+        width: 100%;
+        border-radius: 5px;
+    }
+
+    .field input[type="submit"] {
+        width: 100%;
+        border-radius: 5px;
+        margin-top: 10px;
+    }
+}
+.widget_menu ul{
+    display: flex;
+    flex-direction: column;
+    font-style: italic;
+}
+
+.row_footer{
+    display: flex;
+    justify-content: space-around;
+    font: weight 900px; ;
+}
+.container_footer h3{
+    font-size: 1.5rem;
+}
+
+
+
+
+
+
+
+
+/** cpy **/
+
+.cpy_ {
+    background: #222;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.cpy_ p {
+    margin: 0;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.cpy_ p a {
+    margin: 0;
+    color: #f7444e;
+    font-size: 15px;
+    font-weight: 400;
+}

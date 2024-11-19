@@ -1,0 +1,384 @@
+
+
+/*subscribe section*/
+
+.subscribe_section {
+    text-align: center;
+  }
+  
+  .subscribe_section .box {
+    background-color: #d4ced0;
+    padding: 75px 45px;
+  }
+  
+  .subscribe_section .subscribe_form .heading_container {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    color: #002c3e;
+  }
+  
+  .subscribe_section .subscribe_form .heading_container h2 {
+    padding: 0 25px;
+  }
+  
+  .subscribe_section .subscribe_form form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  .subscribe_section .subscribe_form form input {
+      width: 100%;
+      height: 60px;
+      border: none;
+      border-radius: 90px;
+      outline: none;
+      padding: 5px 25px;
+      background-color: #ffffff;
+      margin-top: 15px;
+      text-align: left;
+  }
+  
+  .subscribe_section .subscribe_form form input::-webkit-input-placeholder {
+    color: #171620;
+  }
+  
+  .subscribe_section .subscribe_form form input:-ms-input-placeholder {
+    color: #171620;
+  }
+  
+  .subscribe_section .subscribe_form form input::-ms-input-placeholder {
+    color: #171620;
+  }
+  
+  .subscribe_section .subscribe_form form input::placeholder {
+    color: #171620;
+  }
+  
+  .subscribe_section .subscribe_form form button {
+    display: inline-block;
+    padding: 10px 45px;
+    background-color: #f7444e;
+    border: 1px solid #f7444e;
+    color: #ffffff;
+    border-radius: 35px;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    text-transform: uppercase;
+    margin-top: 35px;
+    font-weight: 600;
+    width: 100%;
+    max-width: 285px;
+  }
+  
+  .subscribe_section .subscribe_form form button:hover {
+    background-color: transparent;
+    color: #f7444e;
+  }
+  
+/*subscribe section end*/
+
+
+
+
+
+
+
+
+/*client review section start*/
+
+.client_section {
+    background-color: #f0f0f0;
+    padding: 50px 0; /* Add padding for spacing */
+}
+
+.review-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 3rem;
+    width: 100vw;
+    margin-right: 25%;
+    /* justify-content: space-around; */
+}
+.containersss{
+    margin-bottom: 3rem;
+    text-align: center;
+    font-size: 2rem;
+    font-style: inherit;
+}
+
+.review-item {
+    margin: 0 2rem;
+    background-color: #ffffff; /* Background color for each review item */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Add padding */
+    text-align: center; /* Center align content */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+    transition: all 0.3s ease; /* Add transition effect */
+    height: auto;
+}
+
+.rounded-image {
+    width: 150px; /* Adjust image width */
+    height: 150px; /* Adjust image height */
+    border-radius: 50%; /* Make images circular */
+    margin: 0 auto 20px; /* Center image and add space below */
+}
+
+.customer-name {
+    font-size: 24px; /* Adjust font size */
+    font-weight: bold; /* Make name bold */
+    margin-bottom: 10px; /* Add space below name */
+}
+
+.review-text {
+    font-size: 16px; /* Adjust font size */
+    color: #666; /* Adjust text color */
+}
+
+.review-item:hover {
+    transform: scale(1.05); /* Increase size on hover */
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2); /* Add shadow effect on hover */
+}
+
+/*client review section end*/
+
+
+
+
+
+
+
+
+
+/** footer **/
+/* Footer Styles *//* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 0;
+}
+
+.logo_footer img {
+    width: 210px;
+}
+
+.information_f p {
+    margin: 5px 0;
+}
+
+.widget_menu {
+    margin-bottom: 30px;
+}
+
+.widget_menu h3 {
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.widget_menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.widget_menu ul li {
+    margin-bottom: 10px;
+}
+
+.widget_menu ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.form_sub {
+    margin-top: 20px;
+}
+
+.field {
+    position: relative;
+}
+
+.field input[type="email"] {
+    width: calc(100% - 110px);
+    padding: 10px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+}
+
+.field input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.field input[type="submit"]:hover {
+    background-color: #e65c00;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 992px) {
+    .widget_menu ul li {
+        margin-bottom: 8px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .widget_menu {
+        margin-bottom: 20px;
+    }
+
+    .field input[type="email"] {
+        width: 100%;
+        border-radius: 5px;
+    }
+
+    .field input[type="submit"] {
+        width: 100%;
+        border-radius: 5px;
+        margin-top: 10px;
+    }
+}
+.widget_menu ul{
+    display: flex;
+    flex-direction: column;
+    font-style: italic;
+}
+
+.row_footer{
+    display: flex;
+    justify-content: space-around;
+    font: weight 900px; ;
+}
+.container_footer h3{
+    font-size: 1.5rem;
+}
+
+
+
+
+
+
+
+
+/** cpy **/
+
+.cpy_ {
+    background: #222;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.cpy_ p {
+    margin: 0;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.cpy_ p a {
+    margin: 0;
+    color: #f7444e;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+/*productsss*/
+
+/* Style for the Latest News section */
+.latest {
+    padding: 60px 0;
+    background-color: #f9f9f9;
+  }
+  
+  .latest .section-titlesss span {
+    display: block;
+    font-size: 24px;
+    color: #333;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+  
+  .latest .section-titlesss h2 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 50px;
+  }
+  
+  /* Style for the blog items */
+  .blog__itemsss {
+    display: flex;
+    margin-bottom: 50px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .blog__item__pic {
+    width: 40%; /* Image takes 40% width */
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  
+  .blog__item__textsss {
+    width: 60%; /* Content takes 60% width */
+    padding: 20px;
+  }
+  
+  .blog__item__textsss span {
+    display: block;
+    font-size: 14px;
+    color: #888;
+    margin-bottom: 10px;
+  }
+  
+  .blog__item__textsss h5 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .blog__item__textsss a {
+    color: #ff6b6b;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .blog__item__textsss a:hover {
+    color: #ff4040;
+  }
+  
+  /* Responsive styles */
+  @media screen and (max-width: 768px) {
+    .blog__itemsss {
+      flex-direction: column; /* Stack items vertically on smaller screens */
+    }
+  
+    .blog__item__pic,
+    .blog__item__textsss {
+      width: 100%; /* Image and content take full width on smaller screens */
+      border-radius: 10px;
+    }
+  }
+
